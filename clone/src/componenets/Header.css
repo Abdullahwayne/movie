@@ -1,0 +1,25 @@
+.mainDiv{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+.left{
+    display:flex;
+    width: 25%;
+    
+}
+.middle{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+.right{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+}
+.rr{
+    margin-top: 100px
+    ;
+}
