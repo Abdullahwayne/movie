@@ -226,6 +226,7 @@ export default function PersistentDrawerLeft() {
                 <HomeIcon />
               </ListItemIcon>
               <ListItemText primary="Home"/>
+             
             </ListItem>
         </List>
         <ListItem  button>
@@ -282,11 +283,12 @@ export default function PersistentDrawerLeft() {
               <ListItemText primary="Music" />
             </ListItem>
             <ListItem button >
-              <SportsBasketballIcon>
-                <SportsCricketIcon/>
-              </SportsBasketballIcon>
+              <ListItemIcon>
+                <SportsBasketballIcon/>
+              </ListItemIcon>
               <ListItemText primary="Sports" />
             </ListItem>
+            
             <ListItem button >
               <ListItemIcon>
                 <SportsEsportsIcon />
